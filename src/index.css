@@ -443,7 +443,7 @@ h2 {
 
 
 .fixed-test {
-  top: 0px !important;
+  top: 0 !important;
   position: sticky !important;
   z-index: 50;
 

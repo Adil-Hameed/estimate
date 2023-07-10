@@ -4,7 +4,7 @@ export default function Details() {
     return (
         <div className='container-fluid p-0'>
             <div className='row mx-0'>
-                <div className='col-12 px-0 rounded buy-this mb-2 mt-4'>
+                <div className='col-12 px-0 rounded buy-this mb-2'>
                     <p className='p-3 mb-0  light-green-text fs-24'>
                         Why Should you buy this property?
                     </p>
@@ -73,6 +73,9 @@ export default function Details() {
                     </div>
 
                 </div>
+                <div className='light-green text-center d-lg-none  d-block fixed-test fs-16 fw-bold px-4   py-2 mb-0 rounded  flex-shrink-0 pointer'>
+                    Make an Offer
+                </div>
                 <div className='col-12 px-0 rounded buy-this mb-2 mt-4'>
                     <p className='p-3 mb-0  light-green-text fs-24'>
                         Transaction Details
@@ -129,7 +132,7 @@ export default function Details() {
 
                 </div>
 
-                <div className='col-lg-6 mt-4 px-0'>
+                <div className='col-lg-6 mt-4 px-0 d-flex flex-column'>
                     <div className='rounded buy-this me-lg-2 mb-2'>
 
                         <p className='p-3 mb-0  light-green-text fs-24'>
@@ -137,7 +140,7 @@ export default function Details() {
                         </p>
                     </div>
 
-                    <div className='dark-blue me-lg-2 mb-2 rounded p-3'>
+                    <div className='dark-blue me-lg-2 mb-2 rounded p-3 d-flex flex-column flex-grow-1'>
                         <div className='w-100 d-flex justify-content-between'>
                             <p className='  fs-18'>
                                 Leaseback Period (monthly):
@@ -165,7 +168,7 @@ export default function Details() {
                     </div>
 
                 </div>
-                <div className='col-lg-6 mt-4 px-0'>
+                <div className='col-lg-6 mt-4 px-0 d-flex flex-column'>
                     <div className='rounded buy-this ms-lg-2 mb-2'>
 
                         <p className='p-3 mb-0  light-green-text fs-24'>
@@ -173,7 +176,7 @@ export default function Details() {
                         </p>
                     </div>
 
-                    <div className='dark-blue ms-lg-2 mb-2 rounded p-3'>
+                    <div className='dark-blue ms-lg-2 mb-2 rounded p-3 d-flex flex-column flex-grow-1'>
                         <div className='w-100 d-flex justify-content-between'>
                             <p className='  fs-18'>
                                 Years Lived at the Property:
@@ -210,7 +213,8 @@ export default function Details() {
                     </p>
                 </div>
 
-                <div className='col-lg-6 mt-4 px-0'>
+
+                <div className='col-lg-6  px-0 d-flex flex-column'>
                     <div className='me-lg-2 light-blue rounded-top'>
 
                         <p className='p-3 mb-0  light-green-text text-center fs-18 text-white text-decoration-underline'>
@@ -218,7 +222,7 @@ export default function Details() {
                         </p>
                     </div>
 
-                    <div className='dark-blue me-lg-2 mb-2 rounded-bottom p-3'>
+                    <div className='dark-blue me-lg-2 mb-2 rounded-bottom p-3 d-flex flex-column flex-grow-1'>
                         <div className='w-100 d-flex justify-content-between'>
                             <p className='  fs-18'>
                                 Property Type:
@@ -350,7 +354,7 @@ export default function Details() {
                     </div>
 
                 </div>
-                <div className='col-lg-6 mt-4 px-0'>
+                <div className='col-lg-6  px-0'>
 
 
                     <div className='ms-lg-2 light-blue rounded-top'>
@@ -476,6 +480,8 @@ export default function Details() {
                     </div>
 
                 </div>
+
+
 
                 {/* ------------------------------------ */}
                 <div className='col-12 px-0 rounded buy-this mb-2 mt-4'>
