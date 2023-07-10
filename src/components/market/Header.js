@@ -32,46 +32,46 @@ export default function Header() {
                 <div className="w-80 row mx-auto d-lg-flex d-none">
                     <div className="col-6 px-0">
                         <div className="h-100 d-flex align-items-stretch">
-                            <img
+                            <img  data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 src="asset/Rectangle 17876.jpg"
-                                className="img-fluid r-15 "
+                                className="img-fluid r-15 pointer "
                                 alt=""
                             />
                         </div>
                     </div>
                     <div className="col-3 px-0">
                         <div className="h-50 d-flex flex-column justify-content-between ">
-                            <img
+                            <img  data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 src="asset/Rectangle 17877.jpg"
-                                className="img-fluid r-8   ms-3 mb-2"
+                                className="img-fluid r-8   ms-3 mb-2 pointer"
                                 alt=""
                             />
-                            <img
+                            <img  data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 src="asset/Rectangle 17878.jpg"
-                                className="img-fluid r-8   ms-3 mt-2"
+                                className="img-fluid r-8   ms-3 mt-2 pointer"
                                 alt=""
                             />
                         </div>
                     </div>
                     <div className="col-3 px-0">
                         <div className="h-50 d-flex flex-column justify-content-between ">
-                            <img
+                            <img  data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 src="asset/Rectangle 17879.jpg"
-                                className="img-fluid r-8   ms-3 mb-2"
+                                className="img-fluid r-8   ms-3 mb-2 pointer"
                                 alt=""
                             />
-                            <div className=' px-0 r-8   ms-3 mt-2 position-relative'>
+                            <div className=' px-0 r-8   ms-3 mt-2 position-relative' data-bs-toggle="modal" data-bs-target="#exampleModal">
 
                                 <img
                                     src="asset/Rectangle 17880.jpg"
                                     className="img-fluid r-8"
                                     alt=""
                                 />
-                                <div className='position-absolute w-100 h-100 top-0 r-8 d-flex justify-content-center flex-column align-items-center' style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}>
+                                <div className='position-absolute pointer  w-100 h-100 top-0 r-8 d-flex justify-content-center flex-column align-items-center' style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}>
                                     <p className='mb-0'>
                                         + 10 Photos
                                     </p>
-                                    <p data-bs-toggle="modal" data-bs-target="#exampleModal" className='light-blue mt-2 px-3 me-3 fw-bold py-2 mb-0 rounded d-inline-block pointer '>
+                                    <p className='light-blue mt-2 px-3 me-3 fw-bold py-2 mb-0 rounded d-inline-block pointer '>
                                         See All Photos
                                     </p>
                                 </div>
@@ -80,18 +80,18 @@ export default function Header() {
                     </div>
                 </div>
                 <div className='px-0 mx-0 d-lg-none d-block'>
-                    <img src="asset/Rectangle 17865.png" className="img-fluid w-100 mb-3" alt="" />
+                    <img src="asset/Rectangle 17865.png" className="img-fluid w-100 mb-3 pointer" alt=""   data-bs-toggle="modal" data-bs-target="#exampleModal"/>
                     <div className='w-80 row mx-auto'>
                         <div className='col-4'>
-                            <img src="asset/Rectangle 17862.png" className="img-fluid w-100" alt="" />
+                            <img src="asset/Rectangle 17862.png" className="img-fluid w-100 pointer" alt=""  data-bs-toggle="modal" data-bs-target="#exampleModal"/>
 
                         </div>
                         <div className='col-4'>
-                            <img src="asset/Rectangle 17863.png" className="img-fluid w-100" alt="" />
+                            <img src="asset/Rectangle 17863.png" className="img-fluid w-100 pointer" alt="" data-bs-toggle="modal" data-bs-target="#exampleModal" />
 
                         </div>
                         <div className='col-4'>
-                            <div className='position-relative rounded'>
+                            <div className='position-relative rounded pointer'  data-bs-toggle="modal" data-bs-target="#exampleModal">
 
                                 <img src="asset/Rectangle 17864.png" className="img-fluid w-100" alt="" />
                                 <div className='position-absolute rounded w-100 h-100 top-0 r-8 d-flex justify-content-center flex-column align-items-center' style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
