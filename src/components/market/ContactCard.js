@@ -1,7 +1,7 @@
 
 export default function ContactCard() {
     return (
-        <div className="d-lg-flex align-items-center text-center text-lg-start p-3 bg-white rounded mt-5">
+        <div className="d-lg-flex align-items-center p-3 bg-white rounded mt-5">
             <div className="">
                 <img src="asset/Group 1000007262.png" alt="" className="img-fluid" />
             </div>

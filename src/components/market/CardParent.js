@@ -16,7 +16,10 @@ export default function CardParent() {
                     <Details />
                 </div>
                 <div className='col-lg-4 col-xl-3 ps-lg-4  d-lg-block d-none ps-0 pe-0'>
+                    {/* <div className='border' style={{height:"100vh"}}> */}
                     <OfferCard />
+
+                    {/* </div> */}
                 </div>
             </div>
 

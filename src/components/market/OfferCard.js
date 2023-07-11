@@ -25,6 +25,52 @@ export default function OfferCard() {
                 <img src="asset/Group 1000007030.svg" className="img-fluid pointer position-absolute top-50 start-50 translate-middle" alt="" />
                 <img src="asset/Rectangle 17865.png" className="img-fluid w-100" alt="" />
             </div>
+            <div>
+                <div className='d-none d-lg-block text-start'>
+            <div className='dark-blue  p-2 me-lg-2 mb-2 rounded d-flex '>
+                <p className='flex-shrink-0 mb-0 me-2 '>
+                    1.
+                </p>
+                <p className='mb-0 '>
+                    Option 1 Option 1 Option 1 Option 1 Option 1 Option 1
+                </p>
+
+            </div>
+
+            <div className='dark-blue  p-2 me-lg-2 mb-2 rounded d-flex'>
+                <p className='flex-shrink-0 mb-0  me-2'>
+                    2.
+                </p>
+                <p className='mb-0 '>
+                    Option 2 Option 2 Option 2 Option 2 Option 2 Option 2
+                </p>
+
+            </div>
+
+            <div className='dark-blue  p-2 me-lg-2 mb-2 rounded d-flex'>
+                <p className='flex-shrink-0 mb-0  me-2'>
+                    3.
+                </p>
+                <p className='mb-0 '>
+                    Option 3 Option 3 Option 3 Option 3 Option 3 Option 3
+                </p>
+
+            </div>
+            <div className='fs-18 border bg-white  p-1 rounded d-flex align-items-center justify-content-center'>
+                            <input type='Email' className='rounded py-2 px-2  w-100 newsletter' placeholder='Email' />
+                            <span className='pointer px-2 light-green  rounded d-flex align-items-center justify-content-center' style={{ width: "129px", height: "49px" }}>
+                                Subscribe
+                            </span>
+                        </div>
+                        <div className='py-4'>
+                            <img src='asset/Path 16.svg' className='mx-md-3 mx-2' width="23" height="23" alt='' />
+                            <img src='asset/instagram.svg' className='mx-md-3 mx-2' width="23" height="23" alt='' />
+                            <img src='asset/linkedin (1).svg' className='mx-md-3 mx-2' width="23" height="23" alt='' />
+                            <img src='asset/tik-tok.svg' className='mx-md-3 mx-2' width="23" height="23" alt='' />
+                        </div>
+
+                </div>
+            </div>
         </div>
     )
 }

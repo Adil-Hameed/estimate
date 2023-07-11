@@ -73,7 +73,7 @@ h2 {
   font-size: 17px;
 }
 
-.fs-7{
+.fs-7 {
   font-size: 14px;
 }
 
@@ -115,7 +115,8 @@ h2 {
   .fs-17 {
     font-size: 16px;
   }
-  .fs-7{
+
+  .fs-7 {
     font-size: 11px;
   }
 }
@@ -167,7 +168,8 @@ h2 {
   .fs-22 {
     font-size: 18px;
   }
-  .fs-7{
+
+  .fs-7 {
     font-size: 9px;
   }
 
@@ -220,7 +222,8 @@ h2 {
   .fs-17 {
     font-size: 14px;
   }
-  .fs-7{
+
+  .fs-7 {
     font-size: 7px;
   }
 
@@ -446,5 +449,7 @@ h2 {
   top: 0 !important;
   position: sticky !important;
   z-index: 50;
+  height: 100vh !important;
+  overflow:hidden;
 
 }
